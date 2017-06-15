@@ -103,14 +103,16 @@ body {
 	text-align: center;
 	line-height: 49px
 }
-.buy_now a:hover {
+.buy_now a:hover,
+.shortinfo a:hover {
 	background-color: white;
 	color: black;
 	-webkit-box-shadow: 14px 13px 9px -10px rgba(0,0,0,0.75);
 	-moz-box-shadow: 14px 13px 9px -10px rgba(0,0,0,0.75);
 	box-shadow: 14px 13px 9px -10px rgba(0,0,0,0.75);
 }
-.buy_now a:active {
+.buy_now a:active,
+.shortinfo a:active {
 	background-color: #F5F5F5;
 	border: 0.5px solid #DCDCDC;
 	-webkit-box-shadow: 14px 13px 9px -10px rgba(0,0,0,0.75);
